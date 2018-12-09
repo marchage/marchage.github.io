@@ -1,5 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+/* https://transfonter.org/ */
+/* Late Night Love Notes */
+/* @import url('https://transfonter.org/files/1e0b19a1ce985106255b033bcf562a58/stylesheet.css'); */
+/* IndieFest Demo */
+@import url('https://transfonter.org/files/d3dcaaf5d9527094c1067bb1bd8f079b/stylesheet.css');
+/* OpenSans Bold */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Bold.eot');
+	src: local('Open Sans Bold'), local('OpenSans-Bold'),
+		url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans-Bold.woff2') format('woff2'),
+		url('OpenSans-Bold.woff') format('woff'),
+		url('OpenSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
 
 :root {
 	-webkit-box-sizing: border-box;
@@ -88,7 +105,10 @@ body {
 	height: 9vmax;
 	min-width: 100px;
 	min-height: 100px;
-  font-family: 'IBM Plex Sans', sans-serif;
+	/* font-family: 'Late Night * Love Notes'; */
+	font-family: 'INDIEFEST Demo';
+	font-weight: normal;
+    font-style: normal;
 	font-size: 12vmax;
 	line-height: 1.2em;
 }
@@ -115,7 +135,10 @@ h1 {
 	position: relative;
 	color: #000;
 	display: table-cell;
-	font-family: 'IBM Plex Sans', sans-serif;
+	/* font-family: 'IBM Plex Sans', sans-serif; */
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-style: normal;
 	font-size: 6em;
 	font-size: 12vmax;
 	line-height: 1.2em;
@@ -192,6 +215,5 @@ h1 {
     .hairline-border { box-shadow: 0 0 0 0.25px; }
 }
 .hover-underline-animation { display: inline-block; position: relative; color: #0087ca; }
-.hover-underline-animation::after { content: '';
-  position: absolute; width: 100%; transform: scaleX(0); height: 2px; bottom: 0; left: 0; background-color: #0087ca; transform-origin: bottom right; transition: transform 0.25s ease-out; }
+.hover-underline-animation::after { content: ''; position: absolute; width: 100%; transform: scaleX(0); height: 2px; bottom: 0; left: 0; background-color: #0087ca; transform-origin: bottom right; transition: transform 0.25s ease-out; }
 .hover-underline-animation:hover::after { transform: scaleX(1); transform-origin: bottom left; }
