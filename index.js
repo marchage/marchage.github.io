@@ -1,5 +1,5 @@
 // Write Javascript code!
-import { firebase } from "https://unpkg.com/firebase@5.7.0/dist/index.esm.js";
+import { firebase } from 'https://www.gstatic.com/firebasejs/5.7.0/firebase.js'
 
 // Initialize Firebase
 firebase.initializeApp({
