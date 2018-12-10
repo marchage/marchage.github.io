@@ -1,5 +1,5 @@
 // Write Javascript code!
-import { firebase } from 'https://www.gstatic.com/firebasejs/5.7.0/firebase.js'
+import { firebase } from './firebase.js'
 
 // Initialize Firebase
 firebase.initializeApp({
