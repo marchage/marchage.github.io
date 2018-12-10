@@ -1,5 +1,4 @@
 // Write Javascript code!
-import * as firebase from './firebase.js'
 
 // Initialize Firebase
 firebase.initializeApp({
