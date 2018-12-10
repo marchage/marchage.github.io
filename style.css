@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 /* https://transfonter.org/ */
-/* Late Night Love Notes */
-/* @import url('https://transfonter.org/files/1e0b19a1ce985106255b033bcf562a58/stylesheet.css'); */
 /* IndieFest Demo */
-@import url('https://transfonter.org/files/d3dcaaf5d9527094c1067bb1bd8f079b/stylesheet.css');
+@font-face {
+    font-family: 'INDIEFEST Demo';
+    src: url('INDIEFESTDemo.woff2') format('woff2'),
+        url('INDIEFESTDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* OpenSans Bold */
 @font-face {
 	font-family: 'Open Sans';
@@ -17,7 +21,7 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
+/* Main styles */
 :root {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
