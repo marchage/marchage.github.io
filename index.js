@@ -10,15 +10,15 @@ firebase.initializeApp({
     messagingSenderId: "696000549067"
 });
 
-const saveToFirebase = function(email) {
+const saveToFirebase = function (email) {
     const emailObject = {
         email: email
     };
 
     firebase.database().ref('subscription-entries').push().set(emailObject)
-        .then(function(snapshot) {
-            success(); // some success method
-        }, function(error) {
+        .then(function (snapshot) {
+            console.log('success!'); // some success method
+        }, function (error) {
             console.log('error' + error);
             error(); // some error method
         });
