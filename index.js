@@ -19,7 +19,6 @@ const saveToFirebase = function (email) {
         .then(function (snapshot) {
             console.log('success!'); // some success method
         }, function (error) {
-            console.log('error' + error);
-            error(); // some error method
+            console.log('error' + error); // some error method
         });
 }
