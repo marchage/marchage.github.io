@@ -164,7 +164,7 @@ h1 {
   zoom: 1;
 }
 
-.credits {
+.links {
 	position: relative;
 	z-index: 9;
 	font-size: 130%;
@@ -173,7 +173,7 @@ h1 {
 	padding: 2rem 0;
 }
 
-.credits a {
+.links a {
 	display: inline-block;
 	color: #df1888;
 	font-family: 'IBM Plex Mono', monospace;
@@ -185,12 +185,12 @@ h1 {
 	transition: 150ms;
 }
 
-.credits a:hover {
+.links a:hover {
 	color: #2d71b9;
 	cursor: pointer;
 }
 
-.credits-logo {
+.links-logo {
 	fill: currentColor;
 	display: inline-block;
 	vertical-align: bottom;
