@@ -1,0 +1,7 @@
+{
+  "name": "recorder",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
