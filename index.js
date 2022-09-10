@@ -1,4 +1,4 @@
-import Tonic from 'https://cdn.skypack.dev/pin/@socketsupply/tonic@v14.1.0-fZTOVu4AVVR9O6ZArLzc/mode=imports/optimized/@socketsupply/tonic.js'
+import Tonic from 'https://cdn.skypack.dev/pin/@socketsupply/tonic@v14.1.0-fZTOVu4AVVR9O6ZArLzc/mode=imports/unoptimized/@socketsupply/tonic.js'
 import bundle from 'https://cdn.skypack.dev/pin/@socketsupply/components@v13.2.19-ntPZtQdgNYXZfaaVUbbk/mode=imports/unoptimized/index.js'
 import html from './lib/main-comp.js'
 
