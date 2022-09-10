@@ -1,4 +1,4 @@
-import { html } from './lib/main-comp'
+import { html } from './lib/main-comp.js'
 
 document.body.appendChild(html`
 <section id="button">
