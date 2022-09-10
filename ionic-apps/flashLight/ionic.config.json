@@ -1,7 +1,0 @@
-{
-  "name": "flashlight",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}

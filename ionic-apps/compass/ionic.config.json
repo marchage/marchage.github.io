@@ -1,7 +1,0 @@
-{
-  "name": "compass",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
