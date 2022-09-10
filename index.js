@@ -105,19 +105,19 @@ document.body.appendChild(html`
   <h2>Icon</h2>
 
   <div id="icon-1" class="test-container">
-    <span>Default Icon</span>
+    <span>Font Awesome 6 face-frown-open Icon</span>
     <tonic-icon
       tabindex="0"
-      symbol-id="example"
-      src="/sprite.svg">
+      symbol-id="face-frown-open"
+      src="/sprites/regular.svg">
     </tonic-icon>
   </div>
 
   <div id="icon-2" class="test-container">
     <span>size="40px"</span>
     <tonic-icon
-      symbol-id="example"
-      src="/sprite.svg"
+      symbol-id="hand-point-down"
+      src="/sprites/regular.svg"
       size="40px">
     </tonic-icon>
   </div>
@@ -125,17 +125,17 @@ document.body.appendChild(html`
   <div id="icon-3" class="test-container">
     <span>fill="cyan"</span>
     <tonic-icon
-      symbol-id="example"
-      src="/sprite.svg"
+      symbol-id="chart-bar"
+      src="/sprites/regular.svg"
       fill="cyan">
     </tonic-icon>
   </div>
 
   <div id="icon-4" class="test-container">
-    <span>symbol-id="custom_off"</span>
+    <span>symbol-id="window-restore"</span>
     <tonic-icon
-      symbol-id="custom_off"
-      src="/sprite.svg">
+      symbol-id="window-restore"
+      src="/sprites/regular.svg">
     </tonic-icon>
   </div>
 
@@ -143,8 +143,8 @@ document.body.appendChild(html`
     <span>tabindex="0"</span>
     <tonic-icon
       tabindex="0"
-      symbol-id="example"
-      src="/sprite.svg">
+      symbol-id="face-grin-squint-tears"
+      src="/sprites/regular.svg">
     </tonic-icon>
   </div>
 
