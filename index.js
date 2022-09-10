@@ -70,3 +70,193 @@ document.body.appendChild(html`
   </div>
 </section>
 `)
+
+document.body.appendChild(html`
+<section id="badge">
+  <h2>Badge</h2>
+
+  <div id="badge-1" class="test-container">
+    <span>Default</span>
+    <tonic-badge id="tonic-badge-1"></tonic-badge>
+  </div>
+
+  <div id="badge-2" class="test-container">
+    <span>count="6"</span>
+    <tonic-badge id="tonic-badge-2" count="6"></tonic-badge>
+  </div>
+
+  <div id="badge-3" class="test-container">
+    <span>theme="light"</span>
+    <tonic-badge id="tonic-badge-3" count="1" theme="light"></tonic-badge>
+  </div>
+
+  <div id="badge-4" class="dark test-container">
+    <span>theme="dark"</span>
+    <tonic-badge id="tonic-badge-4" count="1" theme="dark"></tonic-badge>
+  </div>
+
+</section>
+`)
+
+document.body.appendChild(html`
+<section id="icon">
+  <h2>Icon</h2>
+
+  <div id="icon-1" class="test-container">
+    <span>Default Icon</span>
+    <tonic-icon
+      tabindex="0"
+      symbol-id="example"
+      src="/sprite.svg">
+    </tonic-icon>
+  </div>
+
+  <div id="icon-2" class="test-container">
+    <span>size="40px"</span>
+    <tonic-icon
+      symbol-id="example"
+      src="/sprite.svg"
+      size="40px">
+    </tonic-icon>
+  </div>
+
+  <div id="icon-3" class="test-container">
+    <span>fill="cyan"</span>
+    <tonic-icon
+      symbol-id="example"
+      src="/sprite.svg"
+      fill="cyan">
+    </tonic-icon>
+  </div>
+
+  <div id="icon-4" class="test-container">
+    <span>symbol-id="custom_off"</span>
+    <tonic-icon
+      symbol-id="custom_off"
+      src="/sprite.svg">
+    </tonic-icon>
+  </div>
+
+  <div id="icon-5" class="test-container">
+    <span>tabindex="0"</span>
+    <tonic-icon
+      tabindex="0"
+      symbol-id="example"
+      src="/sprite.svg">
+    </tonic-icon>
+  </div>
+
+</section>
+`)
+
+document.body.appendChild(html`
+<section id="profile-image">
+  <tonic-sprite></tonic-sprite>
+  <h2>Profile Image</h2>
+
+  <!-- Profile Image Default -->
+  <div class="test-container">
+    <span>Default Profile Image</span>
+    <tonic-profile-image
+      id="profile-image-default">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile with id -->
+  <div class="test-container">
+    <span>id="profile-image-id"</span>
+    <tonic-profile-image
+      id="profile-image-id">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile with name -->
+  <div class="test-container">
+    <span>name="profile-name"</span>
+    <tonic-profile-image
+      id="profile-image-name"
+      name="profile-name">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile with src -->
+  <div class="test-container">
+    <span>src="/sampleprofile.jpg"</span>
+    <tonic-profile-image
+      id="profile-image-src"
+      src="/sampleprofile.jpg"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile with size -->
+  <div class="test-container">
+    <span>size="100px"</span>
+    <tonic-profile-image
+      id="profile-image-size"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile with radius -->
+  <div class="test-container">
+    <span>radius="50%"</span>
+    <tonic-profile-image
+      id="profile-image-radius"
+      radius="50%"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile with border -->
+  <div class="test-container">
+    <span>border="3px solid black"</span>
+    <tonic-profile-image
+      id="profile-image-border"
+      border="3px solid black"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile editable -->
+  <div class="test-container">
+    <span>editable="true"</span>
+    <tonic-profile-image
+      id="profile-image-editable"
+      editable="true"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile not editable -->
+  <div class="test-container">
+    <span>editable="false"</span>
+    <tonic-profile-image
+      id="profile-image-editable-false"
+      editable="false"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile theme light -->
+  <div class="test-container">
+    <span>theme="light"</span>
+    <tonic-profile-image
+      id="profile-image-theme-light"
+      theme="light"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+  <!-- Profile theme dark -->
+  <div class="test-container dark">
+    <span>theme="dark"</span>
+    <tonic-profile-image
+      id="profile-image-theme-dark"
+      theme="dark"
+      size="100px">
+    </tonic-profile-image>
+  </div>
+
+</section>
+`)
