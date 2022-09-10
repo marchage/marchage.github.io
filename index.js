@@ -1,4 +1,4 @@
-import { html } from 'https://gist.githubusercontent.com/marchage/c928c694672f58f30bde44236b8253a1/raw/46830d36935458906dd5eafe9a6650df9ed555c5/'
+import { html } from 'lib/MainComp'
 
 document.body.appendChild(html`
 <section id="button">
