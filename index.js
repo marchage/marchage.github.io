@@ -1,6 +1,6 @@
-import { Tonic } from 'https://cdn.skypack.dev/-/@socketsupply/tonic@v14.1.0-fZTOVu4AVVR9O6ZArLzc/dist=es2019,mode=imports/optimized/@socketsupply/tonic.js'
-import { components } from 'https://cdn.skypack.dev/-/@socketsupply/components@v13.2.19-ntPZtQdgNYXZfaaVUbbk/dist=es2019,mode=imports/unoptimized/index.js'
-import { html } from './lib/main-comp.js'
+import Tonic from 'https://cdn.skypack.dev/-/@socketsupply/tonic@v14.1.0-fZTOVu4AVVR9O6ZArLzc/dist=es2019,mode=imports/optimized/@socketsupply/tonic.js'
+import components from 'https://cdn.skypack.dev/-/@socketsupply/components@v13.2.19-ntPZtQdgNYXZfaaVUbbk/dist=es2019,mode=imports/unoptimized/index.js'
+import html from './lib/main-comp.js'
 
 components.add(Tonic)
 
