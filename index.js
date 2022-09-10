@@ -3,9 +3,9 @@ import bundle from 'https://cdn.skypack.dev/pin/@socketsupply/components@v13.2.1
 
 bundle(Tonic)
 
-document.body.appendChild(Tonic.html`<h1>Index Page</h1>`)
+document.body.appendChild(Tonic.prototype.html`<h1>Index Page</h1>`)
 
-document.body.appendChild(Tonic.html`
+document.body.appendChild(Tonic.prototype.html`
 <section id="button">
   <h2>Button</h2>
   <div id="button-1" class="test-container">
@@ -72,7 +72,7 @@ document.body.appendChild(Tonic.html`
 </section>
 `)
 
-document.body.appendChild(Tonic.html`
+document.body.appendChild(Tonic.prototype.html`
 <section id="badge">
   <h2>Badge</h2>
 
@@ -99,7 +99,7 @@ document.body.appendChild(Tonic.html`
 </section>
 `)
 
-document.body.appendChild(Tonic.html`
+document.body.appendChild(Tonic.prototype.html`
 <section id="icon">
   <h2>Icon</h2>
 
@@ -150,7 +150,7 @@ document.body.appendChild(Tonic.html`
 </section>
 `)
 
-document.body.appendChild(Tonic.html`
+document.body.appendChild(Tonic.prototype.html`
 <section id="profile-image">
   <tonic-sprite></tonic-sprite>
   <h2>Profile Image</h2>
