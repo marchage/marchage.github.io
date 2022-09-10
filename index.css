@@ -7,7 +7,7 @@
 body {
     --tonic-body: 'Lato', sans-serif;
     --tonic-header: 'Abril Fatface', serif;
-    --tonic-subheader: 'Abril Fatface', serif;
+    --tonic-subheader: 'Lato', sans-serif;
     --tonic-monospace: 'Major Mono Display', monospace;
 }
 
