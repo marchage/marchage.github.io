@@ -4,7 +4,7 @@ import html from './lib/main-comp.js'
 
 bundle(Tonic)
 
-document.body.appendChild(html`<h1>Index Page</h1>`)
+document.body.appendChild(html`<h1>Index Page</h1><tonic-sprite></tonic-sprite>`)
 
 document.body.appendChild(html`
 <section id="button">
